@@ -5,14 +5,19 @@
 ul,li{
   list-style: none;
 }
+body{
+  background-color: lightgrey;
+}
 .wrapper{
   width:200px;
   height:200px;
   position: relative;
   margin:30px auto;
+  overflow: hidden;
   .sliders{
     height:200px;
     position: absolute;
+    transition-duration: 1s;
     .slider{
       float:left;
       width:200px;

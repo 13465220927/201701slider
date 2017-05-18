@@ -10,5 +10,6 @@ let images = [
 ReactDOM.render((
     <Slider
       images={images}
+      interval={2}
     />
 ),document.querySelector('#root'));
