@@ -5,7 +5,11 @@ npm init -y
 
 ## 安装依赖包
 ```
-npm install webpack webpack-dev-server babel-core babel-loader   babel-preset-react babel-preset-es2015 babel-preset-stage-0 style-loader css-loader less-loader less file-loader url-loader html-webpack-plugin -S
+开发依赖
+npm install webpack webpack-dev-server babel-core babel-loader   babel-preset-react babel-preset-es2015 babel-preset-stage-0 style-loader css-loader less-loader less file-loader url-loader html-webpack-plugin -D
+
+生产依赖
+npm install react react-dom -S
 ```
 
 - webpack 是打包的
