@@ -9,7 +9,7 @@ export default class Slider extends React.Component{
                 <ul className="sliders">
                     {
                         images.map((image,index)=>(
-                            <li className="slider">
+                            <li className="slider" key={index}>
                                 <img src={image.src} />
                             </li>
                         ))
