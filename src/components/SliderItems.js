@@ -10,6 +10,9 @@ export default class SliderItems extends React.Component{
                         </li>
                     ))
                 }
+                <li className="slider" key={this.props.images.length}>
+                    <img src={this.props.images[0].src} />
+                </li>
             </ul>
         )
     }
